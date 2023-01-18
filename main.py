@@ -1,4 +1,4 @@
-# Exercise 01: Write a program to find the type of the variable name
+# Exercise 00: Write a program to find the type of the variable name
 # Variable, name=”Hello there”, number=9876, list = [1, 'a'] etc.
 def variable__type (variable__name):
     return type(variable__name)
