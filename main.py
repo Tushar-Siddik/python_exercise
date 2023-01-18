@@ -105,3 +105,14 @@ print(isIMGLandscape(url))
 # the function should return “FizzBuzz” if the number is divisible by both 5 and 3,
 # otherwise return “Not a Fizz-buzz number”
 # Hints: Use condition inside the function
+
+def FizzBuzz (number):
+    if number % 3 == 0 and number % 5 == 0:
+        return '{} is a Fizz-buzz number'.format(number)
+    elif number % 3 == 0:
+        return '{} is a Fizz number'.format(number)
+    elif number % 5 == 0:
+        return '{} is a Buzz number'.format(number)
+    return '{} is not a Fizz-buzz number'.format(number)
+
+print(FizzBuzz(45))
