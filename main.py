@@ -61,6 +61,18 @@ for index, number in enumerate(numbers):
 # Exercise 05: Write a program to sort the numbers in Ascending order
 # numbers=[3, 5, 1, 9, 7, 2, 8 ]
 
+numbers=[3, 5, 1, 9, 7, 2, 8 ]
+numbers.sort()
+print(numbers)
+
+numbers.sort(reverse=True)
+print(numbers)
+
+t = sorted(numbers)
+print(t)
+
+t = sorted(numbers, reverse = True)
+print(t)
 
 # Exercise 06: Write a function named “isLandscape” that
 # takes 2 numbers (image width and height) as arguments 
