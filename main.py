@@ -47,6 +47,16 @@ print(find__elder(39, 35))
 # Exercise 04: Write a program to find the index of 7
 # numbers=[3, 5, 1, 9, 7, 2, 8 ]
 
+def find__index (variable__name, query):
+    return variable__name.index(query)
+
+numbers=[3, 5, 1, 9, 7, 2, 8 ]
+
+print (find__index(numbers, 7))
+
+for index, number in enumerate(numbers):
+    print('{} index is {}'.format(index, number))
+
 
 # Exercise 05: Write a program to sort the numbers in Ascending order
 # numbers=[3, 5, 1, 9, 7, 2, 8 ]
