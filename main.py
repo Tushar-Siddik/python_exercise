@@ -18,6 +18,12 @@ print(variable__type(name_dict))
 # Exercise 01: Write a program to find the length of the variable name
 # Variable, name=”Hello there”
 
+def length__fn(variable__name):
+    return len(variable__name)
+
+name = 'Hello there'
+print(length__fn(name))
+
 
 # Exercise 02: Write a program to find the type of the variable name
 # name=”Hello there”
