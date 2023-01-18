@@ -28,10 +28,20 @@ print(length__fn(name))
 # Exercise 02: Write a program to find the type of the variable name
 # name=”Hello there”
 
+name = 'Hello there'
+print(type(name))
 
-# Exercise 03: Write a function that takes 2 numbers as arguments (age of
-# two brothers) and find who is elder
+
+# Exercise 03: Write a function that takes 2 numbers as arguments
+# (age of two brothers) and find who is elder
 # Hints: Use condition inside the function
+
+def find__elder (age1, age2):
+    if age1 > age2:
+        return 'Brother 1 is elder'
+    return 'Brother 2 is elder'
+
+print(find__elder(39, 35))
 
 
 # Exercise 04: Write a program to find the index of 7
