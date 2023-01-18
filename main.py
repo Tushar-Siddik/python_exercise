@@ -80,6 +80,23 @@ print(t)
 # Returns Portrait otherwise
 # Hints: Use condition inside the function
 
+def isLandscape (width, height):
+    if width > height:
+        return 'Landscape image'
+    return 'Portrait image'
+
+print(isLandscape(480, 360))
+
+def isIMGLandscape (urlPhrase):
+    splitted_url = urlPhrase.split('.')
+    splitted_size = splitted_url[2].split('x')
+    if splitted_size[0] > splitted_size[1]:
+        return 'Landscape image'
+    return 'Portrait image'
+
+url = 'https://adsfh.com/size.500x400.png'
+print(isIMGLandscape(url))
+
 
 # Exercise 07: FizzBuzz Exercise
 # Write a function that takes 1 number as argument. 
