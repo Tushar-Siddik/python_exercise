@@ -1,6 +1,19 @@
 # Exercise 01: Write a program to find the type of the variable name
 # Variable, name=”Hello there”, number=9876, list = [1, 'a'] etc.
+def variable__type (variable__name):
+    return type(variable__name)
 
+name = 'Hello there'
+print(variable__type(name))
+
+number = 9876
+print(variable__type(number))
+
+name_list = ['Hello there', 123]
+print(variable__type(name_list))
+
+name_dict = {'age': 20, 'area': 'dhaka'}
+print(variable__type(name_dict))
 
 # Exercise 01: Write a program to find the length of the variable name
 # Variable, name=”Hello there”
